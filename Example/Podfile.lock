@@ -20,7 +20,11 @@ PODS:
   - Toast-Swift (5.0.1)
   - URLNavigator (2.3.0)
   - WebViewJavascriptBridge (6.0.3)
-  - YUtilCore (0.0.1):
+  - YEmptyDataView (0.1.0):
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+  - YUtilCore (0.0.2):
     - CryptoSwift (~> 0.8.3)
     - Kingfisher
     - MBProgressHUD (~> 1.1.0)
@@ -34,6 +38,7 @@ PODS:
     - Toast-Swift
     - URLNavigator
     - WebViewJavascriptBridge
+    - YEmptyDataView (~> 0.1.0)
 
 DEPENDENCIES:
   - YUtilCore (from `../`)
@@ -55,6 +60,7 @@ SPEC REPOS:
     - Toast-Swift
     - URLNavigator
     - WebViewJavascriptBridge
+    - YEmptyDataView
 
 EXTERNAL SOURCES:
   YUtilCore:
@@ -76,8 +82,9 @@ SPEC CHECKSUMS:
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
   URLNavigator: 2593c0e2d293732ec5c44503cf54dceba1a68085
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
-  YUtilCore: cdbfbd57029ac81a8a7f55e8b16ff2face4e9c9b
+  YEmptyDataView: 7a16c40a237581acd2e15c50584469384a77375b
+  YUtilCore: 4c018b8d253303ded8780e81cef33c1a36abf146
 
-PODFILE CHECKSUM: 9fe8cb170c8a2395b04ae8385d53b62331c37398
+PODFILE CHECKSUM: c2638a9470082cb467cad155591d27b8e412a1c3
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.10.1

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YUtilCore'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '项目公用基础库'
 
 # This description is used to generate tags and improve search results.
@@ -42,6 +42,7 @@ TODO: 项目公用基础库，单独模块.
   # s.public_header_files = 'Pod/Classes/**/*.h'
 
   s.frameworks = 'UIKit'
+  s.dependency 'YEmptyDataView', '~> 0.1.0'
   s.dependency 'ModelProtocol'
   s.dependency 'RxSwift'  #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
   s.dependency 'RxCocoa'

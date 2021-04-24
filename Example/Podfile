@@ -4,6 +4,7 @@ platform :ios, '9.0'
 
 target 'YUtilCore_Example' do
   pod 'YUtilCore', :path => '../'
+	
 
   target 'YUtilCore_Tests' do
     inherit! :search_paths
