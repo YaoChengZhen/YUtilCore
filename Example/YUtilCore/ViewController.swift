@@ -8,10 +8,15 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
+    @IBAction func touchTextBtn(_ sender: Any) {
+      "https://www.baidu.com/".openURL()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
