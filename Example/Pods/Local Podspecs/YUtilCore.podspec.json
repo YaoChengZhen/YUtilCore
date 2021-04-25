@@ -1,6 +1,6 @@
 {
   "name": "YUtilCore",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "summary": "项目公用基础库",
   "description": "TODO: 项目公用基础库，单独模块.",
   "homepage": "https://github.com/YaoChengZhen/YUtilCore",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/YaoChengZhen/YUtilCore.git",
-    "tag": "0.0.2"
+    "tag": "0.0.4"
   },
   "platforms": {
     "ios": "9.0"
@@ -28,7 +28,7 @@
   "frameworks": "UIKit",
   "dependencies": {
     "YEmptyDataView": [
-      "~> 0.1.0"
+      "~> 0.1.1"
     ],
     "ModelProtocol": [
 
